@@ -459,3 +459,36 @@ Delete product
 DELETE
 http://localhost:5000/api/products/PRODUCT_ID
 Expected: 200 OK with a success message.
+
+
+
+
+Frontend :- 
+
+npm create vite@latest frontend -- --template react
+cd frontend
+npm install
+npm install axios
+npm run dev
+
+GitHub :- 
+
+
+git init
+git add .
+git status
+git commit -m "Initial MERN task manager setup"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/mern-task-manager.git
+git push -u origin main
+
+-> Agar Git pehli baar use kar rahe ho, to pehle identity configure karo:
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+
+Step 9.4 — Aage changes kaise push karne hain?
+-> Har baar code change karne ke baad:
+git add .
+git commit -m "Add task management features"
+git push
